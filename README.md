@@ -54,17 +54,9 @@ Buat file JSON dengan contoh format seperti berikut :
 >Dim hasil as String = await fileUpdater.checkThenUpdate(filename, filepath, "aplikasi")
 
 >if hasil<>"Updated" then messagebox.show(hasil, "Terjadi Kesalahan")
-
-### Creating A Pull Request
-
-
+ 
 
 ## Authors
 
 * **BukanFarid** - ** - [BukanFarid](http://aititeru.com/) - **
-
-## Acknowledgements
-
-* [ShaanCoding](https://github.com/ShaanCoding/)
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-* [ImgShields](https://shields.io/)
+ 
