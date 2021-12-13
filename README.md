@@ -46,9 +46,11 @@ Buat file JSON dengan contoh format seperti berikut :
 ## Usage
 
 >Dim filename As String = AppDomain.CurrentDomain.FriendlyName
+
 >Dim filepath As String = Application.StartupPath
 
 >Dim fileUpdater as New FileUpdater("https://server.com/tempatJson/","fileReferensi.json", true)
+
 >Dim hasil as String = await fileUpdater.checkThenUpdate(filename, filepath, "aplikasi")
 
 >if hasil<>"Updated" then messagebox.show(hasil, "Terjadi Kesalahan")
